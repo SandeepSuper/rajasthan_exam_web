@@ -1,0 +1,9 @@
+node_modules
+dist
+.env.local
+.env
+*.log
+*.tsbuildinfo
+# Local-only test login (never commit)
+LOCAL_DEMO_LOGIN.md
+public/__devlogin.html
