@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://rajasthan-exam-api-50047311976.development.catalystappsail.in/api/:path*" },
+    { "source": "/uploads/:path*", "destination": "https://rajasthan-exam-api-50047311976.development.catalystappsail.in/uploads/:path*" },
+    { "source": "/privacy-policy.html", "destination": "https://rajasthan-exam-api-50047311976.development.catalystappsail.in/privacy-policy.html" },
+    { "source": "/support.html", "destination": "https://rajasthan-exam-api-50047311976.development.catalystappsail.in/support.html" },
+    { "source": "/((?!assets/|avatars/|logo\\.png).*)", "destination": "/index.html" }
+  ]
+}
